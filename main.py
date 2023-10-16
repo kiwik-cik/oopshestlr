@@ -14,7 +14,6 @@ class Potato:
     def is_ripe(self):
         return self.state == "Зрелая"
 
-
 class PotatoField:
     def __init__(self, num_potatoes):
         self.potatoes = [Potato(i + 1) for i in range(num_potatoes)]
